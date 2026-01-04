@@ -13,7 +13,7 @@ st.set_page_config(
 # -------------------- DATA LOADING --------------------
 @st.cache_data(show_spinner=False)
 def load_data():
-    return sns.load_dataset("iris")
+    return sn.load_dataset("iris")
 
 data = load_data()
 
